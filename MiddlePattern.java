@@ -21,8 +21,8 @@ public class MiddlePattern{
 		}
 		for(i=0;i<str.length();i++){
 			if(n>0)
-				System.out.format(" %1$"+n+"s", "");
-		for(int k=0;k<i+1;k++)
+			System.out.format(" %1$"+n+"s", "");
+		    for(int k=0;k<i+1;k++)
 			System.out.print(arr[k]);
 		System.out.println();
 		n=n-2;
